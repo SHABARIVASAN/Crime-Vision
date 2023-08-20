@@ -1,0 +1,40 @@
+body {
+    background-image: url("../static/image/BackgRound.jpg");
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1 {
+
+  text-align: center;
+ color:white; 
+font-size: 40px;
+font-family:verdana;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+}
+#image-input {
+  margin-bottom: 30px;
+}
+#predict-button {
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: 3px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#predict-button:hover {
+  background-color: #0062cc;
+}
+#prediction-result {
+  display: none;
+  margin-top: 30px;
+  text-align: center;
+}
